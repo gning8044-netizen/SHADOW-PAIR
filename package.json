@@ -1,0 +1,28 @@
+{
+  "name": "DEV SHADOW-BOT",
+  "version": "1.0.0",
+  "description": "Telegram-WhatsApp Bridge Bot - Multi Device",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "telegram",
+    "whatsapp",
+    "bridge",
+    "bot",
+    "multi-device"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "^6.7.0",
+    "chalk": "^4.1.2",
+    "node-telegram-bot-api": "^0.66.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
